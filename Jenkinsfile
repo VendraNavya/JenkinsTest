@@ -1,5 +1,7 @@
 pipeline {
-	    agent Windows
+	    agent {
+		label "Windows"
+		}
 	
 
 	        // Environment Variables
